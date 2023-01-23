@@ -1,11 +1,3 @@
-$('ul li').click(function(e) {
-  e.preventDefault();
-  $('ul li').removeClass('active');
-  $(this).addClass('active');
-   $('ul a').click(function(e){
-    window.location=$(this).attr('href');
-   })
-})
 $(function(){
   $(window).scroll(function(){
     
