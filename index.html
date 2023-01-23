@@ -11,45 +11,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-  <script>
-  $('ul li').click(function(e) {
-  e.preventDefault();
-  $('ul li').removeClass('active');
-  $(this).addClass('active');
-   $('ul a').click(function(e){
-    window.location=$(this).attr('href');
-   })
-})
-$(function(){
-  $(window).scroll(function(){
-    
-    if($(this).scrollTop()>=50){
-     $('nav').addClass('nav-active');
-      
-        // instead of alert you can use to show your ad
-        // something like $('#footAd').slideup();
-    }
-    if($(this).scrollTop()<150){
-     $('nav').removeClass('nav-active');
-      
-        // instead of alert you can use to show your ad
-        // something like $('#footAd').slideup();
-    }
-  });
-});
-</script>
+  
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <html>
 
 <head>
+  
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+  <script src="jquery-3.6.1.min.js"></script>
+  <script src="./script.js"></script>
   <script src="https://kit.fontawesome.com/7691bab6c3.js" crossorigin="anonymous"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
 </head>
 
 <body>
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+  <script src="jquery-3.6.1.min.js"></script>
+  <script src="./script.js"></script>
+  <script src="https://kit.fontawesome.com/7691bab6c3.js" crossorigin="anonymous"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <main id="">
     <nav >
       <ul>
